@@ -13,7 +13,7 @@ public class Task21 {
         }
     }
 
-    private void run() throws Exception {
+    public void run() throws Exception {
         Scanner sc = new Scanner(new File("input.txt"));
         String[] salaries = sc.nextLine().split(" ");
         BigInteger min = BigInteger.valueOf(999999999);
